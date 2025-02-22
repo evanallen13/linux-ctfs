@@ -5,7 +5,7 @@
       "ghcr.io/devcontainers/features/terraform:1": {},
       "ghcr.io/devcontainers/features/azure-cli:1": {}
     },
-    "postCreateCommand": "az login",
+    "postCreateCommand": "az login && ./ctf_setup.sh",
     "customizations": {
       "vscode": {
         "settings": {
